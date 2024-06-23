@@ -1,0 +1,63 @@
+.burger-wrapper{
+    position: fixed;
+    height: 100%;
+    width:23%;
+    box-shadow: 8px 0px 0px 0px rgba(0,0,0,0.3);
+    padding:20px;
+    padding-right: 10px;
+    background-color:#403630;
+    font-family: 'pixelFont';
+    
+}
+
+.burger-banner{
+    display: flex;
+    min-height: 88px;
+    max-height: 88px;
+    gap:30px
+}
+
+.burger-banner-bars{
+    height: 64px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.catSavings{
+    display: flex;
+    font-size: 11px;
+    gap:10px;
+    align-items: center;
+    color: #ffefe5;
+}
+
+.shop-title{
+    font-size: 35px;
+    margin-top:10px;
+    margin-bottom: 30px;
+    color:#ffefe5;
+}
+
+.burger-shop-items{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.shop-item{
+    cursor: pointer;
+    color:#b99c8a;
+}
+
+.shop-item:hover{
+    color:#ffefe5
+}
+
+.item-name-price{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-right: 15px;
+}
